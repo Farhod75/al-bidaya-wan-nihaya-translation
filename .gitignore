@@ -1,0 +1,59 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.env
+
+# Node.js (if using any JS tools)
+node_modules/
+package-lock.json
+
+# Audio temp files
+audio/temp/
+audio/*.tmp
+*.wav.tmp
+
+# Large files (use Git LFS for these)
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+temp/
+tmp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# API keys and secrets
+.env.local
+.env.production
+secrets.json
+api_keys.json
